@@ -1,0 +1,82 @@
+.archive-medicine {
+	.section-desc {
+		margin-bottom: 20px;
+	}
+
+	.section-title {
+		margin-bottom: 20px;
+	}
+ 
+	.single-bottom-form {
+		background: url(/images/bg-form-medicine.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 0;
+		border-radius: 0;
+
+		.section-title {
+			margin-bottom: 20px;
+		}
+
+		.form-title {
+			font-size: 20px;
+			margin-bottom: 14px;
+			font-style: normal;
+		}
+	}
+}
+
+.bg-liner-text {
+	background: linear-gradient(90deg, #F49D1C 71.34%, rgba(255, 168, 39, 0) 100%);
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 0;
+	padding: 10px 12px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.form-search-sidebar {
+	width: 60%;
+	margin: 0 auto 90px auto;
+
+	input {
+		border: 0.5px solid $color_main;
+		height: 50px;
+		border-radius: 25px;
+	}
+
+	.btn-search {
+		background: $color_main;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 700;
+		height: 44px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 22px;
+		gap: 6px;
+		transform: translate(-3px, 3px);
+	}
+}
+
+.list-post-medicine {
+	row-gap: 30px;
+
+	.post-thumbnail {
+		width: 100%;
+		aspect-ratio: 360/230;
+		margin-bottom: 12px;
+		border-radius: 10px;
+	}
+
+	.post-title {
+		margin-bottom: 0;
+
+		a {
+			color: #111;
+		}
+	}
+}

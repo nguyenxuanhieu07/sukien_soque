@@ -1,0 +1,210 @@
+.banner-specical {
+	.item {
+		height: 400px;
+		width: 100%;
+		aspect-ratio: 1140/400;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.content {
+		width: 90%;
+		position: relative;
+		z-index: 2;
+		background: #fff;
+		border-top: 2px solid #9F2C2C;
+		box-shadow: 0px 0px 20px 0px #9F2C2C14;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+		text-align: center;
+		padding: 30px;
+		margin: -10% auto 0 auto;
+	}
+}
+
+.special-cat {
+	.diver-line {
+		padding-bottom: 40px;
+		margin-bottom: 40px;
+	}
+
+	.list-service {
+		row-gap: 30px;
+		margin-bottom: 90px;
+	}
+
+	.service-banner-cta {
+		.box-content {
+			padding: 50px 0 0 30px;
+		}
+
+		.section-title {
+			text-transform: none;
+			font-size: 30px;
+			margin-bottom: 20px;
+		}
+
+		.section-desc {
+			font-size: 16px;
+			margin-bottom: 0;
+			color: #4A4A4A;
+		}
+	}
+
+	.form-bg {
+		padding: 20px;
+
+		.item-row {
+			margin: 0 -7px;
+		}
+
+		.item-col {
+			padding: 0 7px;
+		}
+
+	}
+
+	.contact-cta {
+		.section-title {
+			font-size: 34px;
+			margin-bottom: 15px;
+			text-transform: none;
+		}
+
+		.section-desc {
+			margin-bottom: 0;
+			color: #4A4A4A;
+			font-size: 18px;
+		}
+	}
+}
+
+.post-service {
+	.post-thumbnail {
+		width: 100%;
+		aspect-ratio: 555/300;
+		margin-top: 20px;
+	}
+
+	.post-title {
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+
+		a {
+			color: $color_main;
+
+			&:hover {
+				color: $color_bg;
+			}
+		}
+	}
+
+	.service-item {
+		color: #4A4A4A;
+		font-size: 16px;
+		margin-bottom: 16px;
+
+		b {
+			color: $color_main;
+		}
+	}
+
+	.btn-a {
+		background: $color_main;
+		color: #fff;
+
+		&:hover {
+			background: $color_bg;
+			color: #fff;
+		}
+	}
+}
+
+.service-solution {
+	background: url(/images/bg-soulution.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 683px;
+
+	.inner {
+
+		&-title {
+			background: $color_main;
+			color: #fff;
+			display: inline-flex;
+			padding: 12px 14px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 20px 0px #9F2C2C1A;
+			margin-bottom: 10px;
+			font-size: 18px;
+			font-weight: 700;
+			align-items: center;
+			column-gap: 10px;
+		}
+
+		&-desc {
+			font-size: 16px;
+			color: #4A4A4A;
+		}
+
+		&.inner-right {
+			text-align: right;
+		}
+
+		&:first-child {
+			margin-bottom: 40px;
+		}
+	}
+
+	.box-img {
+		margin-bottom: 30px;
+		width: 100%;
+		aspect-ratio: 1/1;
+	}
+}
+
+.service-review {
+	position: relative;
+	margin-top: -50px;
+	margin-bottom: 90px;
+
+	.section-title {
+		font-family: "Roboto", sans-serif;
+		font-size: 24px;
+	}
+}
+
+.list-special-question {
+	row-gap: 30px;
+
+	.box-question-content {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border: none;
+	}
+}
+
+.specital-question {
+	padding-bottom: 90px;
+}
+
+.special-video {
+	padding: 90px 0;
+}
+
+.special-post {
+	margin-bottom: 90px;
+}
+
+.list-post-special {
+	row-gap: 30px;
+
+	.post-thumbnail {
+		width: 230px;
+		aspect-ratio: 23/15;
+	}
+}
+.list-solution-special{
+	row-gap: 30px;
+}

@@ -1,0 +1,124 @@
+.inside-content {
+	.box-question-content {
+		border: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.check-reply {
+		background: #FFEFEF;
+		color: $color_main;
+	}
+}
+
+.single-meta-doctor {
+	display: flex;
+	column-gap: 10px;
+	margin-bottom: 22px;
+
+	.avatar {
+		width: 50px;
+		height: 50px;
+		flex-shrink: 0;
+	}
+
+	.name {
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 0;
+		display: flex;
+		gap: 10px;
+		align-items: baseline;
+	}
+
+	.note {
+		font-size: 13px;
+		color: $color_main;
+		font-style: italic;
+		margin-bottom: 0;
+	}
+}
+
+.box-side-post {
+	padding: 20px 15px;
+
+	.box-side-title {
+		position: relative;
+		padding-left: 15px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 5px;
+			height: 100%;
+			background: $color_main;
+			left: 0;
+			top: 0;
+		}
+	}
+
+	.list-side-post {
+		list-style: none;
+		padding-left: 0px;
+		margin-bottom: 0;
+
+		li {
+			font-size: 16px;
+			font-weight: 500;
+
+			a {
+				color: #4A4A4A;
+				display: flex;
+				align-items: baseline;
+				gap: 10px;
+
+				&:hover {
+					color: $color_main;
+				}
+			}
+
+			&:not(:last-child) {
+				margin-bottom: 14px;
+				padding-bottom: 14px;
+				border-bottom: 1px solid #C9C9C9;
+			}
+		}
+	}
+}
+
+.single-bottom-form {
+	background: url(/images/banner-form.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-bottom: 60px;
+
+	.box-form {
+		padding: 20px;
+	}
+
+	.form-title {
+		font-weight: 800;
+		font-style: italic;
+		margin-bottom: 0;
+	}
+
+	.form-bg {
+		padding: 20px;
+	}
+
+	.item-row {
+		margin: 0 -8px;
+	}
+
+	.item-col {
+		padding: 0 8px;
+	}
+
+	.form-desc {
+		margin-bottom: 14px;
+		color: #fff;
+		font-size: 16px;
+	}
+}

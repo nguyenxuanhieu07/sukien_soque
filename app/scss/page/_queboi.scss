@@ -1,0 +1,181 @@
+@font-face {
+	font-family: MTD;
+	src: url(/fonts/MTD-Auto-Quick.otf);
+
+}
+
+.queboi {
+	position: relative;
+	max-height: 1077px;
+	height: 1077px;
+	padding-top: 30px;
+	overflow: hidden;
+
+	&-title {
+		font-size: 84px;
+		font-family: MTD;
+		font-weight: 400;
+		text-align: center;
+		margin-bottom: 14px;
+		background: linear-gradient(0deg, #F0B81D 0%, #FFFFFF 50.48%, #EEAE00 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-transform: capitalize;
+
+		&-child {
+			color: #fff;
+			font-weight: 800;
+			font-family: "Montserrat", sans-serif;
+			margin-bottom: 23px;
+			font-size: 39px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+
+	&-bg {
+		background-image: url(/images/img_queboi/bg-page.png), url(/images/img_queboi/bg-page2.png);
+		background-size: 100% 60%, 100% 40%;
+		background-position: top center, bottom center;
+		background-repeat: no-repeat;
+	}
+
+	&-logo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 52px;
+		margin-bottom: 35px;
+	}
+
+	&-hoadao1 {
+		position: absolute;
+		background: url(/images/img_queboi/hoadao-l.svg) no-repeat;
+		height: 407px;
+		width: 536px;
+		background-position: center;
+		left: 0;
+		top: 0;
+		z-index: 5;
+	}
+
+	&-hoadao2 {
+		position: absolute;
+		background: url(/images/img_queboi/hoadao_r.svg) no-repeat;
+		height: 407px;
+		width: 536px;
+		background-position: center;
+		right: 0;
+		top: 0;
+		z-index: 5;
+	}
+
+	&-nha1 {
+		position: absolute;
+		background: url(/images/img_queboi/nha1.svg) no-repeat;
+		height: 556px;
+		width: 512px;
+		background-position: center;
+		left: -91px;
+		top: 236px;
+		mix-blend-mode: multiply;
+	}
+
+	&-nha2 {
+		position: absolute;
+		background: url(/images/img_queboi/nha2.svg) no-repeat;
+		height: 472px;
+		width: 452px;
+		background-position: center;
+		right: -40px;
+		top: 236px;
+		mix-blend-mode: multiply;
+	}
+
+	&-may1 {
+		position: absolute;
+		background: url(/images/img_queboi/may1.svg) no-repeat;
+		height: 377px;
+		width: 737px;
+		background-position: center;
+		left: -75px;
+		top: 516px;
+		mix-blend-mode: screen;
+		background-size: contain;
+		//animation: moveLR 3s ease-in-out infinite alternate;
+	}
+
+	&-may2 {
+		position: absolute;
+		background: url(/images/img_queboi/may2.svg) no-repeat;
+		height: 337px;
+		width: 755px;
+		background-position: center;
+		right: -75px;
+		top: 531px;
+		mix-blend-mode: screen;
+		background-size: contain;
+		//animation: moveLR 3s ease-in-out infinite alternate;
+	}
+}
+.queboi-boximg{
+	position: relative;
+}
+.img-cong{
+	margin: 0 auto;
+	width: 669px;
+	height: 598px;
+	background: url(/images/img_queboi/cong.png) no-repeat;
+	background-position: center;
+}
+//.longden1{
+//	position: absolute;
+//	left: 0;
+//	top: 20%;
+//	background: url(/images/img_queboi/denlong1.svg) no-repeat;
+//	width: 132px;
+//	height: 243px;
+//	background-position: center;
+
+
+//}
+//.longden2{
+//	background: url(/images/img_queboi/denlong2.svg) no-repeat;
+//}
+//.bong-cong{
+//	position: absolute;
+//	left: 0;
+//	height: 100px;
+//	bottom: -50px;
+//	z-index: 1;
+//	width: 100%;
+//	mix-blend-mode: multiply;
+//}
+//.boximg-cong {
+//	position: relative;
+//	z-index: 2;
+//}
+
+@keyframes moveLR {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(20px);
+	}
+}
+
+@keyframes windBlow {
+	0% {
+		transform: translateX(0) rotate(0deg);
+	}
+
+	50% {
+		transform: translateX(15px) rotate(3deg);
+	}
+
+	100% {
+		transform: translateX(-10px) rotate(-2deg);
+	}
+}

@@ -1,0 +1,141 @@
+.contact-info {
+	margin-bottom: 90px;
+
+	.box-map {
+		width: 100%;
+		aspect-ratio: 555/344;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.title {
+		font-size: 20px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+
+	.item {
+		display: flex;
+		column-gap: 20px;
+		font-size: 16px;
+		color: #4A4A4A;
+		margin-bottom: 15px;
+
+		.fa {
+			color: $color_bg;
+		}
+
+		a {
+			color: #4A4A4A;
+		}
+	}
+
+	.time {
+		color: #4A4A4A;
+		font-size: 15px;
+		br{
+			display: none;
+		}
+		span {
+			&:first-child {
+				margin-left: 10px;
+				padding-right: 10px;
+				margin-right: 10px;
+				position: relative;
+
+				&::after {
+					content: '';
+					position: absolute;
+					height: 50%;
+					border-right: 1px solid #4A4A4A;
+					right: 0;
+					top: 0;
+					transform: translateY(50%);
+				}
+			}
+		}
+	}
+}
+
+.contact-page {
+	.single-bottom-form {
+		background: transparent;
+		margin-bottom: 90px;
+
+		.section-title {
+			color: #fff;
+			margin-bottom: 20px;
+		}
+
+		.box-form {
+			padding: 0;
+		}
+	}
+}
+
+.contact-cta {
+	background: url(/images/contact-bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 40px 0;
+
+	.text-note {
+		margin-bottom: 10px;
+		font-size: 24px;
+		font-weight: 500;
+		color: $color_main;
+	}
+
+	.title {
+		font-size: 30px;
+		font-weight: 900;
+		display: flex;
+		align-items: center;
+		column-gap: 10px;
+		margin-bottom: 20px;
+	}
+
+	.text {
+		color: #4A4A4A;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	.contat-page {
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 20px;
+		display: flex;
+		column-gap: 20px;
+
+		a {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			background: #fff;
+			padding: 8px 15px;
+			border-radius: 8px;
+			font-size: 13px;
+			color: $color_main;
+		}
+
+		.group {
+			background: $color_bg;
+			color: #fff;
+			font-weight: 700;
+		}
+
+		.mess {
+			background: #287AFF;
+			color: #fff;
+			font-weight: 700;
+		}
+	}
+	.note{
+		font-size: 14px;
+		font-style: italic;
+		margin-bottom: 0;
+		color: #4A4A4A;
+	}
+}

@@ -1,0 +1,74 @@
+.list-post-medicine {
+	row-gap: 40px;
+
+	.post {
+		&-thumbnail {
+			width: 100%;
+			aspect-ratio: 360/227;
+			margin-bottom: 20px;
+			border-radius: 20px;
+		}
+
+		&-title {
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 15px;
+
+			a {
+				color: $color_main;
+			}
+		}
+
+		&-desc {
+			font-size: 15px;
+
+			ul {
+				padding-left: 15px;
+				margin-bottom: 0;
+
+				li {
+					&:not(:last-child) {
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.sc-post-medicine {
+	margin-bottom: 60px;
+
+	.section-title {
+		margin-bottom: 20px;
+	}
+
+	.section-desc {
+		margin-bottom: 40px;
+	}
+
+	.box-cta {
+		margin-top: 30px;
+	}
+}
+
+.servie-page2 {
+	.form-field-title {
+		color: #fff;
+		font-size: 15px;
+		font-weight: 700;
+		margin-bottom: 5px;
+	}
+
+	.form-check-inline {
+		margin-right: 0;
+	}
+
+	.form-check-label {
+		color: #fff;
+	}
+
+	.form-check-input {
+		margin-bottom: 0 !important;
+	}
+}

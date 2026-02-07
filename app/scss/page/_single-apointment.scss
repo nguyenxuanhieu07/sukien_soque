@@ -1,0 +1,74 @@
+.single-apointment {
+	.single-thumb {
+		width: 100%;
+		aspect-ratio: 750/480;
+		margin-bottom: 35px;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.single-meta-doctor {
+		.time {
+			font-size: 13px;
+			color: #4A4A4A;
+			display: flex;
+			align-items: center;
+			column-gap: 10px;
+			margin-bottom: 0;
+		}
+	}
+
+	.contact-cta {
+		.section-title {
+			margin-bottom: 15px;
+		}
+
+		.btn-a {
+			background: $color_main;
+
+			&:hover {
+				background: $color_bg;
+				color: #fff;
+			}
+		}
+	}
+
+	.single-meta-cta {
+		.title {
+			color: $color_main;
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 10px;
+		}
+
+		.text {
+			color: #4A4A4A;
+			font-size: 16px;
+			margin-bottom: 15px;
+
+			&-note {
+				color: $color_main;
+				margin-bottom: 15px;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+.single-linkmore {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 10px;
+	width: max-content;
+	max-width: 100%;
+	margin: 30px auto;
+	background: none;
+	color: $color_main;
+	font-size: 15px;
+	font-weight: 700;
+
+	&.btn-a {
+		background: #FFE6E6;
+	}
+}

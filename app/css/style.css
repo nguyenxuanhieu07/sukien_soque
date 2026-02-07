@@ -1,0 +1,152 @@
+@font-face {
+  font-family: MTD;
+  src: url(/fonts/MTD-Auto-Quick.otf);
+}
+
+.queboi {
+  position: relative;
+  max-height: 1077px;
+  height: 1077px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.queboi-title {
+  font-size: 84px;
+  font-family: MTD;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 14px;
+  background: linear-gradient(0deg, #F0B81D 0%, #FFFFFF 50.48%, #EEAE00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+
+.queboi-title-child {
+  color: #fff;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 23px;
+  font-size: 39px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.queboi-bg {
+  background-image: url(/images/img_queboi/bg-page.png), url(/images/img_queboi/bg-page2.png);
+  background-size: 100% 60%, 100% 40%;
+  background-position: top center, bottom center;
+  background-repeat: no-repeat;
+}
+
+.queboi-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  margin-bottom: 35px;
+}
+
+.queboi-hoadao1 {
+  position: absolute;
+  background: url(/images/img_queboi/hoadao-l.svg) no-repeat;
+  height: 407px;
+  width: 536px;
+  background-position: center;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+
+.queboi-hoadao2 {
+  position: absolute;
+  background: url(/images/img_queboi/hoadao_r.svg) no-repeat;
+  height: 407px;
+  width: 536px;
+  background-position: center;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+
+.queboi-nha1 {
+  position: absolute;
+  background: url(/images/img_queboi/nha1.svg) no-repeat;
+  height: 556px;
+  width: 512px;
+  background-position: center;
+  left: -91px;
+  top: 236px;
+  mix-blend-mode: multiply;
+}
+
+.queboi-nha2 {
+  position: absolute;
+  background: url(/images/img_queboi/nha2.svg) no-repeat;
+  height: 472px;
+  width: 452px;
+  background-position: center;
+  right: -40px;
+  top: 236px;
+  mix-blend-mode: multiply;
+}
+
+.queboi-may1 {
+  position: absolute;
+  background: url(/images/img_queboi/may1.svg) no-repeat;
+  height: 377px;
+  width: 737px;
+  background-position: center;
+  left: -75px;
+  top: 516px;
+  mix-blend-mode: screen;
+  background-size: contain;
+}
+
+.queboi-may2 {
+  position: absolute;
+  background: url(/images/img_queboi/may2.svg) no-repeat;
+  height: 337px;
+  width: 755px;
+  background-position: center;
+  right: -75px;
+  top: 531px;
+  mix-blend-mode: screen;
+  background-size: contain;
+}
+
+.queboi-boximg {
+  position: relative;
+}
+
+.img-cong {
+  margin: 0 auto;
+  width: 669px;
+  height: 598px;
+  background: url(/images/img_queboi/cong.png) no-repeat;
+  background-position: center;
+}
+
+@keyframes moveLR {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes windBlow {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(15px) rotate(3deg);
+  }
+  100% {
+    transform: translateX(-10px) rotate(-2deg);
+  }
+}
+
+/*# sourceMappingURL=maps/style.css.map */
