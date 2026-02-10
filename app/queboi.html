@@ -41,13 +41,18 @@
 				<img src="images/img_queboi/may2.svg" alt="">
 			</div>
 			<div class="queboi-radianbg">
-				<img src="images/img_queboi/radian-bg.svg" alt="">
+				<img src="images/img_queboi/radian-bg.svg" alt="" class="d-none d-md-block">
+				<img src="images/img_queboi/radian-bg-mb.svg" alt="" class="d-block d-md-none">
 			</div>
+
 			<div class="queboi-xeng1">
 				<img src="images/img_queboi/xeng1.png" alt="">
 			</div>
 			<div class="queboi-xeng2">
 				<img src="images/img_queboi/xeng2.png" alt="">
+			</div>
+			<div class="queboi-lixi">
+				<img src="images/img_queboi/lixi1.png" alt="">
 			</div>
 			<div class="queboi-voucher1">
 				<img src="images/img_queboi/voucher1.png" alt="">
@@ -65,16 +70,16 @@
 			<div class="queboi-logo">
 				<img src="images/img_queboi/icon_brand.svg" alt="">
 			</div>
-			<h1 class="queboi-title">Lì Xì Khai Xuân - Chơi là Trúng</h1>
-			<h2 class="queboi-title-child">100% CHƠI LÀ TRÚNG</h2>
+			<h1 class="queboi-title">Lì Xì Khai Xuân <span>-</span> <br> Chơi là Trúng</h1>
+			<h2 class="queboi-title-child">100% CHƠI <br> LÀ TRÚNG</h2>
 			<div class="queboi-boximg text-center">
 				<div class="img-cong">
 					<img src="images/img_queboi/cong.png" alt="">
 					<div class="longden1">
-						<img src="images/img_queboi/denlong1.svg" alt="">
+						<img src="images/img_queboi/long_den2.png" alt="">
 					</div>
 					<div class="longden2">
-						<img src="images/img_queboi/denlong2.svg" alt="">
+						<img src="images/img_queboi/long_den1.png" alt="">
 					</div>
 				</div>
 				<div class="bong-cong">
@@ -84,7 +89,7 @@
 					<img src="images/img_queboi/ngua.svg" alt="">
 				</div>
 			</div>
-			<h2 class="queboi-title-child title-bg">Nhận ngay lì xì lên tới 500.000 VNĐ</h2>
+			<h2 class="queboi-title-child title-bg">Nhận ngay lì xì <br> lên tới 500.000 VNĐ</h2>
 			<div class="btn-submit text-center">
 				<a href="" class="atc-event" data-toggle="modal" data-target="#modal_envent">
 					<img src="images/img_queboi/btn-submit.png" alt="">
@@ -93,6 +98,9 @@
 			</div>
 			<!-- </div> -->
 		</div>
+		<audio id="bgSound" loop>
+			<source src="sound/nhac_nen.mp3" type="audio/mpeg">
+		</audio>
 	</main>
 	<div class="modal fade" id="modal_envent" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
@@ -130,7 +138,8 @@
 						<p class="form-text-title text-center">Chúc mừng Số điện thoại </p>
 						<p class="text-phone text-center">098.565.8635</p>
 						<p class="text-note text-center">Đã nhận được lì xì may mắn 50.000 VNĐ</p>
-						<p class="text-note text-bg text-center">Chúng tôi sẽ gọi điện xác nhận, bà con chú ý điện thoại nhé</p>
+						<p class="text-note text-bg text-center">Chúng tôi sẽ gọi điện xác nhận, bà con chú ý điện thoại
+							nhé</p>
 						<a href="" class="btn-scc">
 							<img src="images/img_queboi/btn-success.png" alt="">
 						</a>
@@ -179,6 +188,20 @@
 	<script type="text/javascript" src="assets/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/slick-1.6.0/slick.min.js"></script>
 	<script type="text/javascript" src="assets/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	<script>
+		//const audio=document.getElementById('bgSound');
+
+		//function unlockAudio() {
+		//	audio.play();
+		//	document.removeEventListener('click',unlockAudio);
+		//	document.removeEventListener('touchstart',unlockAudio);
+		//}
+
+		//document.addEventListener('click',unlockAudio,{once: true});
+		//document.addEventListener('touchstart',unlockAudio,{once: true});
+
+		
+	</script>
 	<!--build:js js/main.min.js -->
 	<script type="text/javascript" src="js/main.js"></script>
 	<!-- endbuild -->
